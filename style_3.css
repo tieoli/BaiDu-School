@@ -1,0 +1,49 @@
+body {
+  padding:0;
+  margin:0;
+}
+h1 {
+  background-color:#7e7a7a;
+  margin:0;
+  padding:30px;
+  color:white;
+}
+.block {
+  height:800px;
+  width:800px;
+}
+.one ,.three ,.five ,.seven ,.nine {
+  float:left;
+  height:149px;
+  width:149px;
+  background-color:#C0C0C0;
+  border-style: none none solid none;
+  border-color:white;
+  border-width:1px;
+  line-height:100px;
+  text-align:center;
+}
+.two ,.four {
+  float:right;
+  height:149px;
+  width:649px;
+  background-color:white;
+  border-style: none solid solid none;
+  border-color:#C0C0C0;/* border-color单独使用是不起作用的，必须得先使用border-style来设置边框样式。放在一起才能起作用 */
+  border-width:1px;
+  text-indent:20px;
+}
+.div1 p ,.div2 p ,.div3 p ,.div4 p ,.div5 p ,.div6 p {
+  display:inline;
+}
+.six ,.eight ,.ten {
+  float:right;
+  height:149px;
+  width:649px;
+  background-color:white;
+  border-style: none solid solid none;
+  border-color:#C0C0C0;/* border-color单独使用是不起作用的，必须得先使用border-style来设置边框样式。放在一起才能起作用 */
+  border-width:1px;
+  text-indent:20px;
+  line-height:50px;
+}
